@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cajaiz">
+            <!-- <img src="img/pexels-skitterphoto-1388947.jpg" alt=""> -->
+        </div>
+        <div class="cajader">
+            <div class="titulo">
+                <h1>Servicio Técnico</h1>
+            </div>
+            <form action="#" method="get">
+                <div class="dentro">
+                    <input type="text" name="nombre" placeholder="Nombre y Apellidos">
+                </div>
+                <div class="dentro">
+                    <input type="text" name="contacto" placeholder="Contacto">
+                </div>
+                <div class="dentro">
+                    <input type="email" name="email" placeholder="usuario@gmail.com" >
+                </div>
+                <div class="dentro">
+                    <div class="dentro">
+                        <input type="text" list="Motivo" placeholder="Motivo">
+                        <datalist name=Motivo id="Motivo">
+                            <option value="Reparación" label="Software"></option>
+                            <option value="Reparación" label="Hardware"></option>
+                            <option value="Sustitución" label="Software"></option>
+                            <option value="Sustitución" label="Hardware"></option>
+                        </datalist>
+                    </div>
+                </div>
+
+                <div class="dentro">
+                    <input type="text" name="marca" placeholder="Marca/Modelo">
+                </div>
+                <div class="dentro">
+                    <input type="text" name="accesrios" placeholder="Accesorios">
+                </div>
+                <div class="dentro">
+                    <input type="text" name="imei" placeholder="Imei">
+                </div>
+                <div class="dentro">
+                    <input type="text" name="codigo" placeholder="Código Desbloqueo">
+                </div>
+                <div class="dentro">
+                    <textarea name="" id="" cols="30" rows="8" placeholder="Falla según cliente"></textarea>
+                </div>
+                <div class="dentro">
+                    <select name="estado">
+                        <option value="">Estado del equipo</option>
+                        <option value="1">Regular</option>
+                        <option value="2">Bueno</option>
+                        <option value="3">Rayado</option>
+                        <option value="4">Golpeado</option>
+                        <option value="5">Nuevo</option>
+                    </select>
+                </div>
+                <div class="dentro">
+                    <input type="text" name="coste" placeholder="Coste estimado" min="1" max="1000" step="1">
+                </div>
+                <div class="dentro">
+                    <input type="text" name="atendido" placeholder="Atendido por">
+                </div>
+                <div class="dentro1">
+                    <input type="radio" name="1" id="radio"> <label for="">Presupuesto</label>
+                    <input type="radio" name="1" id="radio"> <label for="">Aceptado</label>
+                    <input type="radio" name="1" id="radio"> <label for="">Renuncia Presupuesto</label>
+                </div>
+                <div class="dentro">
+                    <input type="submit" value="Enviar" id="boton">
+                </div>
+                <!-- Profe muchas gracias por dejarme hacer el examen otro día =)  -->
+            </form>
+        </div>
+    </div>
+</body>
+</html>
